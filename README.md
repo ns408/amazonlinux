@@ -16,3 +16,9 @@ brew cask install docker
 ./bin/build.sh
 ./bin/run.sh
 ```
+
+## Reference:
+
+- https://docs.aws.amazon.com/cli/latest/userguide/install-linux-al2017.html
+- https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux-mac.html
+- https://github.com/Versent/saml2aws#usage

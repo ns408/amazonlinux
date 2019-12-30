@@ -7,6 +7,9 @@ SCRIPTPATH="$(dirname $SCRIPTNAME)"
 # `name` and `version` configured from here
 source ${SCRIPTPATH}/../.info
 
+# Create the ~/.saml2aws if it doesn't exist
+touch ${HOME}/.saml2aws
+
 docker run \
   -v ${SCRIPTPATH}/..:/home/${user}/host_mount \
   -v ${HOME}/.aws:/home/${user}/.aws \
