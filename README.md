@@ -1,6 +1,8 @@
 # docker_amazonlinux
 
-Amazonlinux docker image with awscli2
+Amazonlinux docker image with awscli, awscli2, saml2aws
+- mounts ~/.saml2aws, ~/.aws from the host
+- mounts .bash_history
 
 ## macOS requirements
 
