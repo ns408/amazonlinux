@@ -4,7 +4,7 @@ ARG user
 
 RUN yum -y update && yum -y upgrade && \
     yum -y install \
-    awscli unzip sudo shadow-utils curl groff
+    awscli unzip sudo shadow-utils curl groff less
 
 RUN cd /tmp && \
     curl "https://d1vvhvl2y92vvt.cloudfront.net/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && \
